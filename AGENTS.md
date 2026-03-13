@@ -56,12 +56,13 @@ Si se ajusta el marco intelectual del proyecto, procura mantener estos tres arch
 
 ## Archivos principales del repo
 - `README.md`: resumen operativo del proyecto actual.
-- `generar_grafo.py`: genera la lámina comparativa principal.
-- `comparacion_ciudades_griegas_romanas.png`: salida gráfica generada.
-- `diferencias_ciudades_griegas_romanas.md`: explicación conceptual del gráfico.
-- `cite_y_ville_glosario.md`: material conceptual sobre `cite` y `ville`.
-- `orden_politico_y_orden_economico_de_la_ciudad.md`: notas temáticas del curso.
-- `planificacion_centralizada_estratificacion_y_ciudad.md`: notas temáticas del curso.
+- `Clase 1/README.md`: índice interno de la primera clase.
+- `Clase 1/generar_grafo.py`: genera la lámina comparativa principal.
+- `Clase 1/comparacion_ciudades_griegas_romanas.png`: salida gráfica generada.
+- `Clase 1/diferencias_ciudades_griegas_romanas.md`: explicación conceptual del gráfico.
+- `Clase 1/cite_y_ville_glosario.md`: material conceptual sobre `cite` y `ville`.
+- `Clase 1/orden_politico_y_orden_economico_de_la_ciudad.md`: notas temáticas del curso.
+- `Clase 1/planificacion_centralizada_estratificacion_y_ciudad.md`: notas temáticas del curso.
 - `prompts/asesor_curso_filosofia_ciudad.prompt.md`: prompt base del asistente académico.
 - `requirements.txt`: dependencias Python del generador gráfico.
 
@@ -96,7 +97,7 @@ pip install -r requirements.txt
 Generación del recurso visual principal:
 
 ```bash
-python generar_grafo.py
+python "Clase 1/generar_grafo.py"
 ```
 
 Dependencias actuales:

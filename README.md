@@ -1,18 +1,25 @@
-# Comparación urbana: ciudades griegas y romanas
+# Filosofía de la ciudad
 
-Este proyecto genera una lámina comparativa entre la `polis` griega y la ciudad romana, combinando:
+Este repositorio reúne materiales del curso **Filosofía de la ciudad: ontología, poder y política**. El contenido actual está organizado por clase y combina:
 
-- implantación territorial,
-- relaciones institucionales,
-- glosario visual,
-- y una explicación en `Markdown`.
+- apuntes académicos en `Markdown`;
+- prompts reutilizables para asistentes;
+- recursos visuales generados con Python.
 
-## Archivos
+## Estructura actual
 
-- `generar_grafo.py`: genera la imagen principal.
-- `comparacion_ciudades_griegas_romanas.png`: salida gráfica.
-- `diferencias_ciudades_griegas_romanas.md`: explicación conceptual y glosario.
-- `requirements.txt`: dependencias Python.
+- `Clase 1/`: materiales y notas de la primera clase.
+- `prompts/`: prompt base del asistente académico.
+- `requirements.txt`: dependencias Python del generador gráfico.
+- `AGENTS.md`: contexto de trabajo para Codex en este workspace.
+
+## Material principal de `Clase 1`
+
+- `Clase 1/README.md`: índice interno de la clase.
+- `Clase 1/generar_grafo.py`: genera la lámina comparativa principal.
+- `Clase 1/comparacion_ciudades_griegas_romanas.png`: salida gráfica.
+- `Clase 1/diferencias_ciudades_griegas_romanas.md`: explicación conceptual y glosario del gráfico.
+- `Clase 1/*.md`: resto de notas temáticas de la clase.
 
 ## Uso rápido
 
@@ -20,7 +27,7 @@ Este proyecto genera una lámina comparativa entre la `polis` griega y la ciudad
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python generar_grafo.py
+python "Clase 1/generar_grafo.py"
 ```
 
 ## Nota sobre VS Code
