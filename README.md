@@ -16,8 +16,8 @@ Este repositorio reúne materiales del curso **Filosofía de la ciudad: ontolog�
 ## Material principal de `Clase 1`
 
 - `Clase 1/README.md`: índice interno de la clase.
-- `Clase 1/generar_grafo.py`: genera la lámina comparativa principal.
-- `Clase 1/comparacion_ciudades_griegas_romanas.png`: salida gráfica.
+- `utils/`: scripts generadores de apoyos visuales.
+- `Clase 1/apoyosGraficosCreados/`: salidas gráficas de la clase.
 - `Clase 1/diferencias_ciudades_griegas_romanas.md`: explicación conceptual y glosario del gráfico.
 - `Clase 1/*.md`: resto de notas temáticas de la clase.
 
@@ -27,7 +27,7 @@ Este repositorio reúne materiales del curso **Filosofía de la ciudad: ontolog�
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python "Clase 1/generar_grafo.py"
+python utils/generar_grafo.py
 ```
 
 ## Nota sobre VS Code

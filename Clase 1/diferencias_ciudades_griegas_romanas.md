@@ -2,7 +2,7 @@
 
 > **Recurso visual:** grafo comparativo generado con `matplotlib` + `networkx` (300 dpi).
 
-![Grafo comparativo 2D: polis griega vs. ciudad romana](./comparacion_ciudades_griegas_romanas.png)
+![Grafo comparativo 2D: polis griega vs. ciudad romana](./apoyosGraficosCreados/comparacion_ciudades_griegas_romanas.png)
 
 ---
 

@@ -4,7 +4,7 @@ Genera un grafo comparativo 2D de alta calidad entre ciudades griegas y romanas.
 Usa matplotlib + networkx con layout manual, tipografía cuidada y paleta cromática
 diferenciada para cada civilización.
 
-Salida: comparacion_ciudades_griegas_romanas.png (300 dpi)
+Salida: ../Clase 1/apoyosGraficosCreados/comparacion_ciudades_griegas_romanas.png
 """
 
 import pathlib
@@ -18,7 +18,8 @@ import networkx as nx
 import numpy as np
 
 # ─── Constantes ────────────────────────────────────────────────────────────────
-OUT = pathlib.Path(__file__).parent / "comparacion_ciudades_griegas_romanas.png"
+ROOT = pathlib.Path(__file__).resolve().parents[1]
+OUT = ROOT / "Clase 1" / "apoyosGraficosCreados" / "comparacion_ciudades_griegas_romanas.png"
 DPI = 300
 
 # Paleta
@@ -431,6 +432,7 @@ def draw_glossary(ax):
 def main():
     G_greek = build_greek_graph()
     G_roman = build_roman_graph()
+    OUT.parent.mkdir(parents=True, exist_ok=True)
 
     fig, ax = plt.subplots(figsize=(25, 15), dpi=DPI)
     fig.patch.set_facecolor(C_BG)
